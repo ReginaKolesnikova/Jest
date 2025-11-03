@@ -50,7 +50,7 @@ function longestCommonPrefix(strs) {
 }
 
 function climbStairs(n) {
-    // на 0 или 1 шаг – ровно 1 способ
+    // Г­Г  0 ГЁГ«ГЁ 1 ГёГ ГЈ вЂ“ Г°Г®ГўГ­Г® 1 Г±ГЇГ®Г±Г®ГЎ
     if (n <= 1) return 1;
 
     // a=f(0), b=f(1)
@@ -138,7 +138,6 @@ function treeFromArray(arr) {
 	return root;
 }
 
-
 function isSymmetric(root) {
 	function isMirror(a, b) {
 		if (!a && !b) return true;
@@ -147,5 +146,6 @@ function isSymmetric(root) {
 	}
 	return isMirror(root?.left || null, root?.right || null);
 }
+
 
 module.exports = { sum, isPalindrome, isStrongPassword, wordCount, lastWordLength, longestCommonPrefix, climbStairs, fromArray, toArray, deleteDuplicates, treeFromArray, isSymmetric };
