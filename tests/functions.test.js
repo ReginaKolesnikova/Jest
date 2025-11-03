@@ -116,8 +116,8 @@ describe('deleteDuplicates (sorted linked list)', () => {
     duplicatesArray = [
         [[1, 1, 2], [1, 2]],
         [[1, 1, 2, 3, 3], [1, 2, 3]],
-        [[1], [1]],                  // îäèí ýëåìåíò
-        [[1, 1, 1, 1], [1]],         // âñå îäèíàêîâûå
+        [[1], [1]],                  // Ã®Ã¤Ã¨Ã­ Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã²
+        [[1, 1, 1, 1], [1]],         // Ã¢Ã±Ã¥ Ã®Ã¤Ã¨Ã­Ã ÃªÃ®Ã¢Ã»Ã¥
     ];
 
     duplicatesArray.forEach(([input, expected]) => {
@@ -147,7 +147,7 @@ describe('isSymmetric (binary tree)', () => {
     });
 });
 
-
 // toBeGreaterThan
 // toBeLessThan
+
 // toBeGreaterThanOrEqual
